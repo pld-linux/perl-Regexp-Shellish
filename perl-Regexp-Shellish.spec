@@ -9,7 +9,7 @@ Summary:	Regexp::Shellish Perl module - shell-like regular expressions
 Summary(pl):	Modu³ Perla Regexp::Shellish - wyra¿enia regularne podobne do rozwiniêæ wykonywanych przez pow³oki
 Name:		perl-Regexp-Shellish
 Version:	0.93
-Release:	3
+Release:	4
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
