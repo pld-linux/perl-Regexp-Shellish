@@ -5,8 +5,8 @@ Summary:	Regexp::Shellish perl module - Shell-like regular expressions
 Summary(pl):	Modu³ perla Regexp::Shellish - shellopodobne wyra¿enia regularne
 Name:		perl-Regexp-Shellish
 Version:	0.93
-Release:	1
-License:	GPL or Artistic
+Release:	2
+License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
