@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Regexp
 %define	pnam	Shellish
-Summary:	Regexp::Shellish perl module - shell-like regular expressions
-Summary(pl):	Modu³ perla Regexp::Shellish - wyra¿enia regularne podobne do rozwiniêæ wykonywanych przez pow³oki
+Summary:	Regexp::Shellish Perl module - shell-like regular expressions
+Summary(pl):	Modu³ Perla Regexp::Shellish - wyra¿enia regularne podobne do rozwiniêæ wykonywanych przez pow³oki
 Name:		perl-Regexp-Shellish
 Version:	0.93
 Release:	3
