@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Regexp
 %define	pnam	Shellish
-Summary:	Regexp::Shellish perl module - Shell-like regular expressions
-Summary(pl):	Modu³ perla Regexp::Shellish - shellopodobne wyra¿enia regularne
+Summary:	Regexp::Shellish perl module - shell-like regular expressions
+Summary(pl):	Modu³ perla Regexp::Shellish - wyra¿enia regularne podobne do rozwiniêæ wykonywanych przez pow³oki
 Name:		perl-Regexp-Shellish
 Version:	0.93
 Release:	3
@@ -20,9 +20,9 @@ wildcards provided are '?', '*' and '**', where '**' is like '*' but
 matches '/'.
 
 %description -l pl
-Modu³ Regexp::Shellish udostêpnia shellopodobne wyra¿enia regularne.
-Dostêpne maski to: '?', '*' i '**', gdzie '**' jest podobna do '*',
-ale obejmuje znaki '/'.
+Modu³ Regexp::Shellish udostêpnia wyra¿enia regularne podobne do
+rozwiniêæ wykonywanych przez pow³oki. Dostêpne maski to: '?', '*' i
+'**', gdzie '**' jest podobna do '*', ale obejmuje znaki '/'.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
