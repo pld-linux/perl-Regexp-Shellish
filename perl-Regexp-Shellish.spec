@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Regexp
-%define	pnam	Shellish
+%define		pdir	Regexp
+%define		pnam	Shellish
 Summary:	Regexp::Shellish Perl module - shell-like regular expressions
 Summary(pl):	Modu³ Perla Regexp::Shellish - wyra¿enia regularne podobne do rozwiniêæ wykonywanych przez pow³oki
 Name:		perl-Regexp-Shellish
