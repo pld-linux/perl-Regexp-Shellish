@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Regexp
 %define	pnam	Shellish
@@ -6,7 +10,7 @@ Summary(pl):	Modu³ Perla Regexp::Shellish - wyra¿enia regularne podobne do rozwi
 Name:		perl-Regexp-Shellish
 Version:	0.93
 Release:	3
-License:	GPL/Artistic
+License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a5f92bf82b3d5033518e6d2c1028ee37
@@ -31,6 +35,8 @@ rozwiniêæ wykonywanych przez pow³oki. Dostêpne maski to: '?', '*' i
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
