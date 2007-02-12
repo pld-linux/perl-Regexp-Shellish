@@ -6,7 +6,7 @@
 %define		pdir	Regexp
 %define		pnam	Shellish
 Summary:	Regexp::Shellish Perl module - shell-like regular expressions
-Summary(pl):	Modu³ Perla Regexp::Shellish - wyra¿enia regularne podobne do rozwiniêæ wykonywanych przez pow³oki
+Summary(pl.UTF-8):   ModuÅ‚ Perla Regexp::Shellish - wyraÅ¼enia regularne podobne do rozwiniÄ™Ä‡ wykonywanych przez powÅ‚oki
 Name:		perl-Regexp-Shellish
 Version:	0.93
 Release:	4
@@ -23,9 +23,9 @@ Regexp::Shellish module provides shell-like regular expressions. The
 wildcards provided are '?', '*' and '**', where '**' is like '*' but
 matches '/'.
 
-%description -l pl
-Modu³ Regexp::Shellish udostêpnia wyra¿enia regularne podobne do
-rozwiniêæ wykonywanych przez pow³oki. Dostêpne maski to: '?', '*' i
+%description -l pl.UTF-8
+ModuÅ‚ Regexp::Shellish udostÄ™pnia wyraÅ¼enia regularne podobne do
+rozwiniÄ™Ä‡ wykonywanych przez powÅ‚oki. DostÄ™pne maski to: '?', '*' i
 '**', gdzie '**' jest podobna do '*', ale obejmuje znaki '/'.
 
 %prep
