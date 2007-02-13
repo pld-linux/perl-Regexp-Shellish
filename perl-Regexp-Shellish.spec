@@ -6,7 +6,7 @@
 %define		pdir	Regexp
 %define		pnam	Shellish
 Summary:	Regexp::Shellish Perl module - shell-like regular expressions
-Summary(pl.UTF-8):   Moduł Perla Regexp::Shellish - wyrażenia regularne podobne do rozwinięć wykonywanych przez powłoki
+Summary(pl.UTF-8):	Moduł Perla Regexp::Shellish - wyrażenia regularne podobne do rozwinięć wykonywanych przez powłoki
 Name:		perl-Regexp-Shellish
 Version:	0.93
 Release:	4
