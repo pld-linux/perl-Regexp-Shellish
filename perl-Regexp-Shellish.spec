@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Regexp
 %define		pnam	Shellish
+%include	/usr/lib/rpm/macros.perl
 Summary:	Regexp::Shellish Perl module - shell-like regular expressions
 Summary(pl.UTF-8):	Moduł Perla Regexp::Shellish - wyrażenia regularne podobne do rozwinięć wykonywanych przez powłoki
 Name:		perl-Regexp-Shellish
@@ -14,6 +14,7 @@ License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a5f92bf82b3d5033518e6d2c1028ee37
+URL:		http://search.cpan.org/dist/Regexp-Shellish/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
