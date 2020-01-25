@@ -4,7 +4,6 @@
 
 %define		pdir	Regexp
 %define		pnam	Shellish
-%include	/usr/lib/rpm/macros.perl
 Summary:	Regexp::Shellish Perl module - shell-like regular expressions
 Summary(pl.UTF-8):	Moduł Perla Regexp::Shellish - wyrażenia regularne podobne do rozwinięć wykonywanych przez powłoki
 Name:		perl-Regexp-Shellish
